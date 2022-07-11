@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Text, Image, Badge } from "@chakra-ui/react";
+import { reColor } from "../Theme/colours";
 
 const LogoName = () => {
   return (
@@ -12,7 +13,7 @@ const LogoName = () => {
       <Text color="white" fontSize={{ base: 20, md: 30 }} p={1}>
         Tandem
       </Text>
-      <Badge bg="blue.500" textColor="white" borderRadius={4}>
+      <Badge bg={reColor.darkBlue} textColor="white" borderRadius={4}>
         Beta
       </Badge>
     </>

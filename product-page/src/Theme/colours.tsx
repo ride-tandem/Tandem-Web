@@ -12,6 +12,12 @@ export const darkTheme = {
   formText: "white",
 };
 
+export const reColor = {
+  mainBlue: "#5FAEE3",
+  darkBlue: "#0C5D91",
+  deepBlue: "#002238",
+};
+
 export const styleColors = {
   lightBlue: "#E3EDF5",
   paleBlue: "#C0DAF0",
